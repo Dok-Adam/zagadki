@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6E522F3298E71BF009643E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E522F2298E71BF009643E8 /* AppDelegate.swift */; };
+		C6E522F5298E71BF009643E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E522F4298E71BF009643E8 /* SceneDelegate.swift */; };
+		C6E522F7298E71BF009643E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E522F6298E71BF009643E8 /* ViewController.swift */; };
+		C6E522FA298E71BF009643E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6E522F8298E71BF009643E8 /* Main.storyboard */; };
+		C6E522FD298E71BF009643E8 /* zagadki.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C6E522FB298E71BF009643E8 /* zagadki.xcdatamodeld */; };
+		C6E522FF298E71C0009643E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6E522FE298E71C0009643E8 /* Assets.xcassets */; };
+		C6E52302298E71C0009643E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6E52300298E71C0009643E8 /* LaunchScreen.storyboard */; };
+		C6E5230D298E71C0009643E8 /* zagadkiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E5230C298E71C0009643E8 /* zagadkiTests.swift */; };
+		C6E52317298E71C0009643E8 /* zagadkiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E52316298E71C0009643E8 /* zagadkiUITests.swift */; };
+		C6E52319298E71C0009643E8 /* zagadkiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E52318298E71C0009643E8 /* zagadkiUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6E52309298E71C0009643E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6E522E7298E71BF009643E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6E522EE298E71BF009643E8;
+			remoteInfo = zagadki;
+		};
+		C6E52313298E71C0009643E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6E522E7298E71BF009643E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6E522EE298E71BF009643E8;
+			remoteInfo = zagadki;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C6E522EF298E71BF009643E8 /* zagadki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zagadki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6E522F2298E71BF009643E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C6E522F4298E71BF009643E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C6E522F6298E71BF009643E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C6E522F9298E71BF009643E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C6E522FC298E71BF009643E8 /* zagadki.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = zagadki.xcdatamodel; sourceTree = "<group>"; };
+		C6E522FE298E71C0009643E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6E52301298E71C0009643E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C6E52303298E71C0009643E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6E52308298E71C0009643E8 /* zagadkiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zagadkiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6E5230C298E71C0009643E8 /* zagadkiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zagadkiTests.swift; sourceTree = "<group>"; };
+		C6E52312298E71C0009643E8 /* zagadkiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zagadkiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6E52316298E71C0009643E8 /* zagadkiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zagadkiUITests.swift; sourceTree = "<group>"; };
+		C6E52318298E71C0009643E8 /* zagadkiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zagadkiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6E522EC298E71BF009643E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6E52305298E71C0009643E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6E5230F298E71C0009643E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6E522E6298E71BF009643E8 = {
+			isa = PBXGroup;
+			children = (
+				C6E522F1298E71BF009643E8 /* zagadki */,
+				C6E5230B298E71C0009643E8 /* zagadkiTests */,
+				C6E52315298E71C0009643E8 /* zagadkiUITests */,
+				C6E522F0298E71BF009643E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6E522F0298E71BF009643E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6E522EF298E71BF009643E8 /* zagadki.app */,
+				C6E52308298E71C0009643E8 /* zagadkiTests.xctest */,
+				C6E52312298E71C0009643E8 /* zagadkiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6E522F1298E71BF009643E8 /* zagadki */ = {
+			isa = PBXGroup;
+			children = (
+				C6E522F2298E71BF009643E8 /* AppDelegate.swift */,
+				C6E522F4298E71BF009643E8 /* SceneDelegate.swift */,
+				C6E522F6298E71BF009643E8 /* ViewController.swift */,
+				C6E522F8298E71BF009643E8 /* Main.storyboard */,
+				C6E522FE298E71C0009643E8 /* Assets.xcassets */,
+				C6E52300298E71C0009643E8 /* LaunchScreen.storyboard */,
+				C6E52303298E71C0009643E8 /* Info.plist */,
+				C6E522FB298E71BF009643E8 /* zagadki.xcdatamodeld */,
+			);
+			path = zagadki;
+			sourceTree = "<group>";
+		};
+		C6E5230B298E71C0009643E8 /* zagadkiTests */ = {
+			isa = PBXGroup;
+			children = (
+				C6E5230C298E71C0009643E8 /* zagadkiTests.swift */,
+			);
+			path = zagadkiTests;
+			sourceTree = "<group>";
+		};
+		C6E52315298E71C0009643E8 /* zagadkiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C6E52316298E71C0009643E8 /* zagadkiUITests.swift */,
+				C6E52318298E71C0009643E8 /* zagadkiUITestsLaunchTests.swift */,
+			);
+			path = zagadkiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6E522EE298E71BF009643E8 /* zagadki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6E5231C298E71C0009643E8 /* Build configuration list for PBXNativeTarget "zagadki" */;
+			buildPhases = (
+				C6E522EB298E71BF009643E8 /* Sources */,
+				C6E522EC298E71BF009643E8 /* Frameworks */,
+				C6E522ED298E71BF009643E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zagadki;
+			productName = zagadki;
+			productReference = C6E522EF298E71BF009643E8 /* zagadki.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C6E52307298E71C0009643E8 /* zagadkiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6E5231F298E71C0009643E8 /* Build configuration list for PBXNativeTarget "zagadkiTests" */;
+			buildPhases = (
+				C6E52304298E71C0009643E8 /* Sources */,
+				C6E52305298E71C0009643E8 /* Frameworks */,
+				C6E52306298E71C0009643E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6E5230A298E71C0009643E8 /* PBXTargetDependency */,
+			);
+			name = zagadkiTests;
+			productName = zagadkiTests;
+			productReference = C6E52308298E71C0009643E8 /* zagadkiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C6E52311298E71C0009643E8 /* zagadkiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6E52322298E71C0009643E8 /* Build configuration list for PBXNativeTarget "zagadkiUITests" */;
+			buildPhases = (
+				C6E5230E298E71C0009643E8 /* Sources */,
+				C6E5230F298E71C0009643E8 /* Frameworks */,
+				C6E52310298E71C0009643E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6E52314298E71C0009643E8 /* PBXTargetDependency */,
+			);
+			name = zagadkiUITests;
+			productName = zagadkiUITests;
+			productReference = C6E52312298E71C0009643E8 /* zagadkiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6E522E7298E71BF009643E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					C6E522EE298E71BF009643E8 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					C6E52307298E71C0009643E8 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = C6E522EE298E71BF009643E8;
+					};
+					C6E52311298E71C0009643E8 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = C6E522EE298E71BF009643E8;
+					};
+				};
+			};
+			buildConfigurationList = C6E522EA298E71BF009643E8 /* Build configuration list for PBXProject "zagadki" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6E522E6298E71BF009643E8;
+			productRefGroup = C6E522F0298E71BF009643E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6E522EE298E71BF009643E8 /* zagadki */,
+				C6E52307298E71C0009643E8 /* zagadkiTests */,
+				C6E52311298E71C0009643E8 /* zagadkiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6E522ED298E71BF009643E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6E52302298E71C0009643E8 /* LaunchScreen.storyboard in Resources */,
+				C6E522FF298E71C0009643E8 /* Assets.xcassets in Resources */,
+				C6E522FA298E71BF009643E8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6E52306298E71C0009643E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6E52310298E71C0009643E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6E522EB298E71BF009643E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6E522F7298E71BF009643E8 /* ViewController.swift in Sources */,
+				C6E522F3298E71BF009643E8 /* AppDelegate.swift in Sources */,
+				C6E522F5298E71BF009643E8 /* SceneDelegate.swift in Sources */,
+				C6E522FD298E71BF009643E8 /* zagadki.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6E52304298E71C0009643E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6E5230D298E71C0009643E8 /* zagadkiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6E5230E298E71C0009643E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6E52319298E71C0009643E8 /* zagadkiUITestsLaunchTests.swift in Sources */,
+				C6E52317298E71C0009643E8 /* zagadkiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6E5230A298E71C0009643E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6E522EE298E71BF009643E8 /* zagadki */;
+			targetProxy = C6E52309298E71C0009643E8 /* PBXContainerItemProxy */;
+		};
+		C6E52314298E71C0009643E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6E522EE298E71BF009643E8 /* zagadki */;
+			targetProxy = C6E52313298E71C0009643E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C6E522F8298E71BF009643E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6E522F9298E71BF009643E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C6E52300298E71C0009643E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6E52301298E71C0009643E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6E5231A298E71C0009643E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C6E5231B298E71C0009643E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6E5231D298E71C0009643E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 36U2FK4UN7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = zagadki/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adam-dtm.zagadki";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C6E5231E298E71C0009643E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 36U2FK4UN7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = zagadki/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adam-dtm.zagadki";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C6E52320298E71C0009643E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 36U2FK4UN7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adam-dtm.zagadkiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zagadki.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/zagadki";
+			};
+			name = Debug;
+		};
+		C6E52321298E71C0009643E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 36U2FK4UN7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adam-dtm.zagadkiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zagadki.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/zagadki";
+			};
+			name = Release;
+		};
+		C6E52323298E71C0009643E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 36U2FK4UN7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adam-dtm.zagadkiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = zagadki;
+			};
+			name = Debug;
+		};
+		C6E52324298E71C0009643E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 36U2FK4UN7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adam-dtm.zagadkiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = zagadki;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6E522EA298E71BF009643E8 /* Build configuration list for PBXProject "zagadki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6E5231A298E71C0009643E8 /* Debug */,
+				C6E5231B298E71C0009643E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6E5231C298E71C0009643E8 /* Build configuration list for PBXNativeTarget "zagadki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6E5231D298E71C0009643E8 /* Debug */,
+				C6E5231E298E71C0009643E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6E5231F298E71C0009643E8 /* Build configuration list for PBXNativeTarget "zagadkiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6E52320298E71C0009643E8 /* Debug */,
+				C6E52321298E71C0009643E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6E52322298E71C0009643E8 /* Build configuration list for PBXNativeTarget "zagadkiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6E52323298E71C0009643E8 /* Debug */,
+				C6E52324298E71C0009643E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C6E522FB298E71BF009643E8 /* zagadki.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C6E522FC298E71BF009643E8 /* zagadki.xcdatamodel */,
+			);
+			currentVersion = C6E522FC298E71BF009643E8 /* zagadki.xcdatamodel */;
+			path = zagadki.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C6E522E7298E71BF009643E8 /* Project object */;
+}
