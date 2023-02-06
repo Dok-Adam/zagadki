@@ -17,6 +17,8 @@
 		C6E5230D298E71C0009643E8 /* zagadkiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E5230C298E71C0009643E8 /* zagadkiTests.swift */; };
 		C6E52317298E71C0009643E8 /* zagadkiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E52316298E71C0009643E8 /* zagadkiUITests.swift */; };
 		C6E52319298E71C0009643E8 /* zagadkiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E52318298E71C0009643E8 /* zagadkiUITestsLaunchTests.swift */; };
+		C6E52328298E7268009643E8 /* zagadki.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E52327298E7268009643E8 /* zagadki.swift */; };
+		C6E5232B298E7872009643E8 /* zagadki_Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E5232A298E7872009643E8 /* zagadki_Question.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		C6E52312298E71C0009643E8 /* zagadkiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zagadkiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6E52316298E71C0009643E8 /* zagadkiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zagadkiUITests.swift; sourceTree = "<group>"; };
 		C6E52318298E71C0009643E8 /* zagadkiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zagadkiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C6E52327298E7268009643E8 /* zagadki.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zagadki.swift; sourceTree = "<group>"; };
+		C6E5232A298E7872009643E8 /* zagadki_Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zagadki_Question.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +107,9 @@
 			children = (
 				C6E522F2298E71BF009643E8 /* AppDelegate.swift */,
 				C6E522F4298E71BF009643E8 /* SceneDelegate.swift */,
-				C6E522F6298E71BF009643E8 /* ViewController.swift */,
-				C6E522F8298E71BF009643E8 /* Main.storyboard */,
+				C6E52329298E7276009643E8 /* Model */,
+				C6E52325298E7222009643E8 /* View */,
+				C6E52326298E7231009643E8 /* Controller */,
 				C6E522FE298E71C0009643E8 /* Assets.xcassets */,
 				C6E52300298E71C0009643E8 /* LaunchScreen.storyboard */,
 				C6E52303298E71C0009643E8 /* Info.plist */,
@@ -128,6 +133,31 @@
 				C6E52318298E71C0009643E8 /* zagadkiUITestsLaunchTests.swift */,
 			);
 			path = zagadkiUITests;
+			sourceTree = "<group>";
+		};
+		C6E52325298E7222009643E8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C6E522F8298E71BF009643E8 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C6E52326298E7231009643E8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C6E522F6298E71BF009643E8 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C6E52329298E7276009643E8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C6E5232A298E7872009643E8 /* zagadki_Question.swift */,
+				C6E52327298E7268009643E8 /* zagadki.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,10 +291,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6E52328298E7268009643E8 /* zagadki.swift in Sources */,
 				C6E522F7298E71BF009643E8 /* ViewController.swift in Sources */,
 				C6E522F3298E71BF009643E8 /* AppDelegate.swift in Sources */,
 				C6E522F5298E71BF009643E8 /* SceneDelegate.swift in Sources */,
 				C6E522FD298E71BF009643E8 /* zagadki.xcdatamodeld in Sources */,
+				C6E5232B298E7872009643E8 /* zagadki_Question.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
